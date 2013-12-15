@@ -7,8 +7,8 @@ Use, share, get inspired, create your own, and share back!
 
 How to theme your *Life*
 ------------------------
-In your `config.json` file, point the `customStylesheetURL` to:
-http://kaizora.github.io/life-themes/dist/theme.css. Replace *theme.css* with the filename of the theme. You can refer to the [Themes](#themes) section or the `css` folder for the fillename.
+1. In your `config.json` file, point the `customStylesheetURL` to: `http://kaizora.github.io/life-themes/dist/theme.css`
+2. Replace *theme.css* with the filename of the theme. You can refer to the [Themes](#themes) section or the `css` folder for the filename.
 
 The [`config.example.json`](https://github.com/kaizora/life-themes/blob/master/config.example.json) in this repo is an example of how it should look.
 
