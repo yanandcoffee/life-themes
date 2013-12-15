@@ -1,0 +1,214 @@
+body.xmas {
+  background-color: #359D6E;
+  color: rgba(255, 255, 255, 0.8); }
+body.android-light {
+  background-color: white;
+  color: #33B5E5; }
+body.playful {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 255, 255, 0.8); }
+body.blueprint {
+  background-color: #215480;
+  color: rgba(255, 255, 255, 0.8); }
+
+#select-wrapper {
+  display: inline-block;
+  margin-left: 40px; }
+  #select-wrapper.dark:after {
+    background: url(../img/ikons-arrow-down.png) no-repeat right; }
+  #select-wrapper.light:after {
+    background: url(../img/ikons-arrow-down-dark.png) no-repeat right; }
+  #select-wrapper span {
+    margin-right: 10px;
+    font-size: 1.33333333333333em; }
+
+#select-wrapper:after {
+  content: '';
+  display: block;
+  z-index: -1;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 29px;
+  right: 31px; }
+
+#theme-select, .dark #theme-select, .light #theme-select {
+  font-size: 1.33333333333333em;
+  outline: 0;
+  padding: 5px 10px;
+  background: transparent;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  width: 150px; }
+
+.dark #theme-select {
+  border: 1px solid white;
+  color: white; }
+
+.light #theme-select {
+  border: 1px solid black;
+  color: black; }
+
+.xmas a {
+  color: white;
+  text-decoration: none; }
+  .xmas a:hover {
+    text-decoration: underline; }
+.xmas header a, .playful header .xmas h1 a, .playful header .xmas a a, .blueprint header .xmas h1 a, .blueprint header .xmas a a {
+  color: #B7F8FD;
+  opacity: 0.5; }
+.xmas #life section.year {
+  border-left: 1px dashed rgba(255, 255, 255, 0.25);
+  color: rgba(183, 248, 253, 0.5); }
+.xmas #life .event b {
+  color: #e9b443;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  transition: color 0.5s ease; }
+.xmas #life .event .time {
+  border-color: #973C31;
+  opacity: 1;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+.xmas #life .event:hover .time {
+  opacity: 1;
+  -webkit-box-shadow: 0px 0px 3px #973C31;
+  -moz-box-shadow: 0px 0px 3px #973C31;
+  -o-box-shadow: 0px 0px 3px #973C31;
+  -ms-box-shadow: 0px 0px 3px #973C31;
+  box-shadow: 0px 0px 3px #973C31; }
+
+.android-light a {
+  color: #33B5E5;
+  opacity: 1;
+  text-decoration: none; }
+  .android-light a:hover {
+    text-decoration: underline; }
+.android-light header, .android-light .playful header h1, .playful header .android-light h1, .android-light .playful header a, .playful header .android-light a, .android-light .blueprint header h1, .blueprint header .android-light h1, .android-light .blueprint header a, .blueprint header .android-light a {
+  color: #33B5E5; }
+  .android-light header a, .playful header .android-light h1 a, .playful header .android-light a a, .blueprint header .android-light h1 a, .blueprint header .android-light a a {
+    color: #33B5E5;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease; }
+    .android-light header a:hover, .playful header .android-light h1 a:hover, .playful header .android-light a a:hover, .blueprint header .android-light h1 a:hover, .blueprint header .android-light a a:hover {
+      opacity: 1;
+      text-decoration: none; }
+.android-light #life section.year {
+  border-left: 1px dashed rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.8); }
+.android-light #life .event b {
+  color: #FFBB33;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  transition: color 0.5s ease; }
+.android-light #life .event .time {
+  border-color: black;
+  opacity: 0.2;
+  -webkit-transition: opacity 0.3s linear;
+  -moz-transition: opacity 0.3s linear;
+  -o-transition: opacity 0.3s linear;
+  -ms-transition: opacity 0.3s linear;
+  transition: opacity 0.3s linear; }
+  .android-light #life .event .time:hover .time {
+    opacity: .75; }
+
+.playful a {
+  color: #33B5E5;
+  opacity: 0.8;
+  text-decoration: none; }
+  .playful a:hover {
+    opacity: 1; }
+.playful header, .playful header h1, .playful header a, .blueprint header .playful h1, .blueprint header .playful a {
+  color: rgba(51, 181, 229, 0.8); }
+  .playful header h1, .blueprint header .playful h1 h1, .blueprint header .playful a h1 {
+    opacity: 1; }
+  .playful header a, .blueprint header .playful h1 a, .blueprint header .playful a a {
+    opacity: 0.8; }
+    .playful header a:hover, .blueprint header .playful h1 a:hover, .blueprint header .playful a a:hover {
+      text-decoration: none; }
+.playful #life section.year {
+  border-left: 1px dashed rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.8); }
+.playful #life .event b {
+  color: #FF4444;
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  transition: color 0.5s ease; }
+.playful #life .event .time {
+  border-color: #0099CC;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease; }
+.playful #life .event:hover .time {
+  opacity: 1; }
+
+.blueprint a {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease; }
+  .blueprint a:hover {
+    text-decoration: underline;
+    opacity: 1; }
+.blueprint header, .playful header .blueprint h1, .playful header .blueprint a, .blueprint header h1, .blueprint header a {
+  color: white; }
+  .blueprint header h1, .playful header .blueprint h1 h1, .playful header .blueprint a h1 {
+    opacity: 1; }
+  .blueprint header a, .playful header .blueprint h1 a, .playful header .blueprint a a {
+    opacity: 0.8; }
+    .blueprint header a:hover, .playful header .blueprint h1 a:hover, .playful header .blueprint a a:hover {
+      opacity: 1; }
+.blueprint #life section.year {
+  border-left: 1px dashed rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.75); }
+.blueprint #life .event {
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  transition: color 0.5s ease; }
+  .blueprint #life .event:hover {
+    color: white; }
+  .blueprint #life .event b {
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    -ms-transition: color 0.5s ease;
+    transition: color 0.5s ease; }
+  .blueprint #life .event:hover b {
+    color: rgba(255, 255, 255, 0.8); }
+  .blueprint #life .event .time {
+    border-color: #0099CC;
+    opacity: 0.5;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease; }
+  .blueprint #life .event:hover .time {
+    opacity: 0.8; }

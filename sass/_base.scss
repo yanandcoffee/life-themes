@@ -1,0 +1,71 @@
+body {
+  &.xmas {
+    background-color: #359D6E;
+    color: rgba(255, 255, 255, 0.8); }
+  &.android-light {
+    background-color: white;
+    color: #33B5E5; }
+  &.playful {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8); }
+  &.blueprint {
+    background-color: #215480;
+    color: rgba(255, 255, 255, 0.8); }
+}
+
+#select-wrapper {
+  display:inline-block;
+  margin-left:40px;
+  &.dark {
+    &:after {
+      background:url(../img/ikons-arrow-down.png) no-repeat right;
+    }
+  }
+  &.light {
+    &:after {
+      background:url(../img/ikons-arrow-down-dark.png) no-repeat right;
+    }
+  }
+  span {
+    margin-right:10px;
+    font-size:1.33333333333333em;
+  }
+}
+
+#select-wrapper:after {
+  content: '';
+  display: block;
+  z-index:-1;
+  height:16px;
+  width:16px;
+  position:absolute;
+  top: 29px;
+  right: 31px; 
+}
+
+#theme-select {
+  font-size:1.33333333333333em;
+  outline:0;
+  padding:5px 10px;
+  background: transparent;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -o-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  cursor:pointer;
+  width:150px;
+}
+
+.dark #theme-select{
+  @extend #theme-select;
+  border: 1px solid white;
+  color:white;
+}
+
+.light #theme-select{
+  @extend #theme-select;
+  border: 1px solid black;
+  color:black;
+}
