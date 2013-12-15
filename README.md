@@ -1,7 +1,7 @@
 Life Themes
 ====
 
-This is a repo of themes for [Life](https://github.com/cheeaun/life). 
+This is a repo of themes for [Life](https://github.com/cheeaun/life). Demo them at [http://kaizora.github.io/life-themes/](http://kaizora.github.io/life-themes/).
 
 Use, share, get inspired, create your own, and share back!
 
