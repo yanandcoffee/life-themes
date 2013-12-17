@@ -34,4 +34,6 @@ How to contribute
 License
 -------
 
-None! Themes are free to use and share.
+[Life](https://github.com/cheeaun/life) by [Lim Chee Aun](https://github.com/cheeaun) is under [MIT License](http://cheeaun.mit-license.org/).
+
+Themes are free to use, modify, and share.
