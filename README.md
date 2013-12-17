@@ -7,13 +7,8 @@ Use, share, get inspired, create your own, and share back!
 
 How to theme your *Life*
 ------------------------
-<<<<<<< HEAD
 In your `config.json` file, point the `customStylesheetURL` to:
 `http://kaizora.github.io/life-themes/dist/theme.css`. Replace *theme.css* with the filename of the theme. You can refer to the [Themes](#themes) section or the `css` folder for the fillename.
-=======
-1. In your `config.json` file, point the `customStylesheetURL` to: `http://kaizora.github.io/life-themes/dist/theme.css`
-2. Replace *theme.css* with the filename of the theme. You can refer to the [Themes](#themes) section or the `css` folder for the filename.
->>>>>>> bfd2eb418edfc0bf1780a92df9f8826ff55f765d
 
 The [`config.example.json`](https://github.com/kaizora/life-themes/blob/master/config.example.json) in this repo is an example of how it should look.
 
@@ -39,10 +34,6 @@ How to contribute
 License
 -------
 
-<<<<<<< HEAD
 [Life](https://github.com/cheeaun/life) by [Lim Chee Aun](https://github.com/cheeaun) is under [MIT License](http://cheeaun.mit-license.org/).
 
 Themes are free to use, modify, and share.
-=======
-None! Themes are free to use and share.
->>>>>>> bfd2eb418edfc0bf1780a92df9f8826ff55f765d
